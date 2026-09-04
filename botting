@@ -25161,7 +25161,7 @@ end
                             end
 
                             local server_name, server_region = get_server_info()
-                            local webhook_msg = "<@&1540963871559516170>"
+                            local webhook_msg = "<@everyone>"
 
                             local description = string.format("**Artifact%s:** %s\n",
                                 #artifact_names > 1 and "s" or "",
